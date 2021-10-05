@@ -1,0 +1,82 @@
+.arrow-1 {
+    position: absolute;
+    bottom: -10vh;
+    right: 0;
+    height: 30vh;
+    animation: float 2s ease-in-out infinite;
+}
+
+.banana {
+    height: 80vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.arrow-2 {
+    position: absolute;
+    bottom: 5vh;
+    right: 50vh;
+    height: 20vh;
+    animation: float 3s ease-in-out infinite;
+}
+
+.arrow-3 {
+    position: absolute;
+    bottom: -5vh;
+    right: 60vh;
+    animation: float 4s ease-in-out infinite;
+}
+
+.bg-gradient-gray {
+    background: var(--white);
+    background: linear-gradient(180deg, var(--white) 30%, rgba(230, 230, 230, 1) 150%);
+}
+
+.logos-customers{
+    filter: grayscale(1);
+    margin: 20px;
+    height: 10vh; 
+    width: 10vh;
+}
+
+.logos-customers:hover {
+    filter: grayscale(0);
+    height: 130px; 
+    width: 130px;
+}
+
+.punos-bridge {
+    position: absolute;
+    height: 70vh;
+    left: 0vw;
+    top: 2vh;
+}
+@media(max-width: 1000px){
+    .punos-bridge{
+        position: absolute;
+        height: 30vh;
+        top: 50vh;
+    }
+}
+
+.testing-movement {
+    pointer-events: none;
+    transform: translateZ(0);
+    padding: 30px;
+    border-radius: 5px;
+    margin: auto;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    position: relative;
+}
+
+.testing-movement h1 {
+    transform: translateZ(100px);
+}
+
+.testing-movement p {
+    transform: translateZ(50px);
+    display: block;
+}

@@ -1,0 +1,73 @@
+.arrow-1-b {
+    position: absolute;
+    bottom: -10vh;
+    height: 15vh;
+    left: 35vw;
+    animation: float 2s ease-in-out infinite;
+}
+.arrow-2-b {
+    position: absolute;
+    bottom: 10vh;
+    right: 10vw;
+    height: 10vh;
+    animation: float 3s ease-in-out infinite;
+}
+
+.arrow-3-b {
+    position: absolute;
+    top: 0;
+    right: 0vw;
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+.p-img-flex-a{
+    position: absolute;
+    left: 5vw;
+    bottom: 30vh;
+    height: 35vh;
+}
+.p-img-flex-b{
+    position: absolute;
+    right: 0;
+    bottom: 10vh;
+    height: 40vh;
+}
+.bg-gray-arrow{
+    background-image: url('../../img/content/Assets-19.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #eaeaea;
+}
+.bg-cinta-flex{
+    background-image: url('../../img/branding/AssetsBranding-23.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 23vh;
+}
+.p-girl-a{
+    position: absolute;
+    height: 30vh;
+    left: 28vw;
+    bottom: 0;
+}
+.p-girl-b{
+    position: absolute;
+    height: 45vh;
+    right: 10vw;
+    bottom: 0;
+}

@@ -1,0 +1,149 @@
+.icon-plus-header {
+    height: 4vh;
+    width: auto;
+    position: absolute;
+    animation: resize 3.5s ease-in-out infinite;
+    top: 20vh;
+    right: 0vw;
+}
+
+.icon-plus-header-2 {
+    height: 10vh;
+    width: auto;
+    position: absolute;
+    animation: resize-plus 2s ease-in-out infinite;
+    bottom: 20vh;
+    right: 0vw;
+}
+
+@keyframes resize-plus {
+    0% {
+        height: 2vh;
+    }
+
+    50% {
+        height: 5vh;
+    }
+
+    100% {
+        height: 2vh;
+    }
+}
+
+.star-1 {
+    height: 5vh;
+    width: auto;
+    position: absolute;
+    top: 30vh;
+    left: 15vw;
+    animation: resize 3s ease-in-out infinite;
+}
+
+.star-2 {
+    height: 10vh;
+    width: auto;
+    position: absolute;
+    bottom: 0vh;
+    right: 10vw;
+    animation: resize-star 4s ease-in-out infinite;
+}
+
+@keyframes resize-star {
+    0% {
+        height: 10vh;
+    }
+
+    50% {
+        height: 15vh;
+    }
+
+    100% {
+        height: 10vh;
+    }
+}
+
+@media(min-width: 1500px) {
+    .icon-plus-header {
+        right: -10vw;
+    }
+}
+
+.p-girl-header {
+    position: relative;
+    left: 10vw;
+    top: 10vh;
+    height: 80vh;
+    width: auto;
+}
+
+.arrow {
+    position: absolute;
+    top: 50vh;
+    left: 30vw;
+    animation: float 4s ease-in-out infinite;
+    height: 35vh;
+}
+
+.img-optimizacion {
+    height: 55vh;
+    position: absolute;
+    left: -10vw;
+}
+
+@keyframes resize {
+    0% {
+        height: 4vh;
+    }
+
+    50% {
+        height: 6vh;
+    }
+
+    100% {
+        height: 4vh;
+    }
+}
+
+
+.avion-1,
+.avion-2,
+.avion-3 {
+    position: absolute;
+}
+
+.avion-1 {
+    left: -2vw;
+    height: 10vh;
+    animation: float-arrow 2s ease-in-out infinite;
+}
+
+.avion-2 {
+    right: 0vw;
+    height: 18vh;
+    top: 0;
+    animation: float-arrow 4s ease-in-out infinite;
+}
+
+.avion-3 {
+    left: -5vw;
+    height: 30vh;
+    bottom: 0;
+    animation: float-arrow 5s ease-in-out infinite;
+}
+
+@keyframes float-arrow {
+    0% {
+        transform: translatey(0px);
+        transform: translatex(0px);
+    }
+
+    50% {
+        transform: translatey(20px);
+        transform: translatex(20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+        transform: translatex(0px);
+    }
+}

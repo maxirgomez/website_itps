@@ -1,0 +1,37 @@
+.header{
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 44px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 50px;
+	height: 10vh;
+	transform: rotate(90deg);
+	position: relative;
+	top: 2vh;
+	left: 1vh;
+}
+.header a {
+	display: block;
+	width: 28px;
+	height: 18px;
+	padding: 11px;
+	margin: 2px;
+	transform: rotate(90deg);
+}
+.header a:before,
+.header a:after {
+	content: '';
+	display: block;
+	background: #fff;
+	height: 2px;
+	width: 30px;
+}
+.header a span {
+	background: #fff;
+	display: block;
+	height: 2px;
+	margin: 6px 0;
+	width: 30px;
+}
